@@ -29,7 +29,7 @@ int main() {
 }
 long Factorial(int no)
 {
-  long fac;
+  long fac = 1;
   for(int r=no ; r>=1; r--){
     fac = fac * r ;
   }
